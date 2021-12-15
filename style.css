@@ -13,7 +13,7 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
-    background-color: #23353A;
+    background-color: #1F2335
 }
 
 .top-bar {
@@ -21,7 +21,7 @@ body {
     width: 100%;
     height: auto;
     border-bottom: 100px;
-    border-color: black;
+    border-color: #0d0208;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     border-width: 100%;
@@ -30,13 +30,24 @@ body {
     background-color: grey;
 }
 
+.top-bar a {
+    margin-left: 10px;
+    color: brown;
+}
+
 .content {
     position: relative;
     border-radius: 25px;
-    border-color: black;
+    border-color: #0d0208;
     border-style: solid;
+    border-width: 2px;
     margin: 0;
-    background-color: #567F71;
+    background-color: #0d0208;
     width: 95vw;
     height: auto;
+    box-shadow: 2px 2px 4px #0d0208;
+}
+
+.content-text {
+    color: #008f11;
 }
