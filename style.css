@@ -6,6 +6,7 @@
 
 body {
     font-family: 'M PLUS 1 Code', sans-serif;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,7 +20,7 @@ body {
     position: relative;
     border-color: #C3C3C3;
     border-style: solid;
-    border-width: 2px;
+    border-width: 3px;
     margin: 0;
     background-color: #0d0208;
     width: 95vw;
@@ -44,11 +45,73 @@ body {
     justify-content: space-between;
     position: relative;
     width: 100%;
-    height: 20px;
+    height: 25px;
     background-color: #000082;
 }
 
 .top-bar button {
-    position: relative;
+    height: 25px;
+    width: 25px;
     margin-right: 5px;
+    background-color: #C3C3C3;
+}
+
+.top-bar img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    padding-right: 0;
+}
+
+/* 
+.menubar {
+    background-color: #C3C3C3;
+    color: black;
+}
+*/
+
+.window-status {
+    width: 100%;
+    height: 10px;
+    background-color: #C3C3C3;
+}
+
+.taskbar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #C3C3C3;
+}
+
+.taskbar-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    bottom: 0;
+}
+
+.start-button {
+    display: flex;
+    border-style: solid;
+    border-color: #777777;
+    width: 60px;
+    height: 100%;
+}
+
+.start-button img {
+    position: relative;
+    width: 80%;
+    height: auto;
+}
+
+.applications {
+    background-color: red;
+    width: 10px;
+}
+
+.watch {
+    margin-right: 5px;
+    border-style: solid;
+    border-color: #777777;
 }
