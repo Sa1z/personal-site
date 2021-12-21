@@ -16,6 +16,17 @@ body {
     background-color: #008080;
 }
 
+.icons-container {
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.desktop-icons {
+    display: flex;
+    flex-direction: column;
+}
+
 .content {
     position: relative;
     border-color: #C3C3C3;
@@ -63,13 +74,6 @@ body {
     margin-left: -4px;
 }
 
-/* 
-.menubar {
-    background-color: #C3C3C3;
-    color: black;
-}
-*/
-
 .window-status {
     width: 100%;
     height: 10px;
@@ -80,7 +84,7 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 50px;
+    height: 47px;
     background-color: #C3C3C3;
 }
 
@@ -92,15 +96,12 @@ body {
 }
 
 .start-button {
-    display: flex;
-    border-style: solid;
-    border-color: #777777;
     width: 60px;
     height: 100%;
+    background-color: #C3C3C3;
 }
 
 .start-button img {
-    position: relative;
     width: 80%;
     height: auto;
 }
@@ -108,6 +109,11 @@ body {
 .applications {
     display: flex;
     justify-content: space-evenly;
+}
+
+.applications button {
+    background-color: #C3C3C3;
+
 }
 
 .watch {
