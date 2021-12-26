@@ -18,14 +18,14 @@ body {
 
 .icons-container {
     position: absolute;
-    float: left;
-    background-color: red;
-    z-index: 100;
+    left: 5px;
+    top: 5px;
+    z-index: -100;
 }
 
 .desktop-icons {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column;
     font-size: 14px;
     color: white;
@@ -38,6 +38,7 @@ body {
 .icon {
     display: flex;
     flex-direction: column;
+    margin: 15px;
 }
 
 
@@ -120,20 +121,23 @@ body {
 }
 
 .applications {
-    display: block;
-    width: 100%;
-    text-align: center; 
+    display: flex;
+    justify-content: space-between; 
     padding: 0;
-    margin: 0;
   }
 
 .applications button {
     background-color: #C3C3C3;
-
+    height: 65%;
+    margin: 10px;
 }
 
 .watch {
+    text-align: center;
     margin-right: 5px;
     border-style: solid;
     border-color: #777777;
+    border-bottom-color: #E3E3E3;
+    border-right-color: #E3E3E3;
+    width: 70px;
 }
