@@ -7,7 +7,7 @@ const contentText = document.getElementById('content-text');
 
 
 function startBtnFunc(e) {
-    contentText.innerHTML = 'I am a supporter of free and open source software. If you are not sure what that means and want to know more, here is a handy video:  <iframe class="dtVideo" width="560" height="315" src="https://www.youtube.com/embed/cU6H2m9XuQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+    contentText.innerHTML = 'I am a supporter of free and open source software. If you are not sure what that means and want to know more, here is a handy video: <br><br> <div class="dtVideo"><iframe width="560" height="315" src="https://www.youtube.com/embed/cU6H2m9XuQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>';
 }
 
 function aboutBtnFunc(e) {
@@ -25,3 +25,33 @@ function portfolioBtnFunc(e) {
 function contactBtnFunc(e) {
     contentText.innerHTML = "Contact";
 }
+
+
+// This code was written by Aaron Farrar (@afarrar) on codepen.io.
+function showTime(){
+    let date = new Date();
+    let h = date.getHours(); // 0 - 23
+    let m = date.getMinutes(); // 0 - 59
+    let session = "AM";
+    
+    if(h == 0){
+        h = 12;
+    }
+    
+    if(h > 12){
+        h = h - 12;
+        session = "PM";
+    }
+    
+    h = (h < 10) ? "0" + h : h;
+    m = (m < 10) ? "0" + m : m;
+    
+    let time = h + ":" + m + " " + session;
+    document.getElementById("MyClockDisplay").innerText = time;
+    document.getElementById("MyClockDisplay").textContent = time;
+    
+    setTimeout(showTime, 1000);
+    
+}
+
+showTime();
