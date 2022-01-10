@@ -11,7 +11,7 @@ function startBtnFunc(e) {
 }
 
 function aboutBtnFunc(e) {
-    contentText.innerHTML = "Hi, I'm Dennis! And I am a self taught web developer. Click the buttons below to find out more about me.";
+    contentText.innerHTML = "Hi, I'm Dennis!<br><br> I am a self taught web developer. This is just a fun little site I made to resemble Windows 95, the first operating system I've ever used. Click the buttons below to find out more about me.";
 }
 
 function skillsBtnFunc(e) {
@@ -19,11 +19,11 @@ function skillsBtnFunc(e) {
 }
 
 function portfolioBtnFunc(e) {
-    contentText.innerHTML = '<h3>My Projects</h3><a href="https://github.com/Sa1z?tab=repositories" target="blank">My Github repositories<ul><li><a href="https://sa1z.github.io/Blurry-Loading-Page/" target="blank">Blurry Loading Page</a></li><li><a href="https://sa1z.github.io/content-placeholder/" target="blank">Placeholder Card</a></li><li><a href="https://sa1z.github.io/live-user-filter/" target="blank">Live User Filter</a></li><li><a href="https://sa1z.github.io/random-choice-picker/" target="blank">Random Choice Picker</a></li><li><a href="https://sa1z.github.io/vertical-slider/" target="blank">Vertical Slider</a></li></ul></a>';
+    contentText.innerHTML = '<h3>My Projects</h3><a href="https://github.com/Sa1z?tab=repositories" target="blank">My Github repositories</a><ul><li><a href="https://sa1z.github.io/startpage/" target="blank">Startpage</a></li><li><a href="https://sa1z.github.io/Blurry-Loading-Page/" target="blank">Blurry Loading Page</a></li><li><a href="https://sa1z.github.io/content-placeholder/" target="blank">Placeholder Card</a></li><li><a href="https://sa1z.github.io/live-user-filter/" target="blank">Live User Filter</a></li><li><a href="https://sa1z.github.io/random-choice-picker/" target="blank">Random Choice Picker</a></li><li><a href="https://sa1z.github.io/vertical-slider/" target="blank">Vertical Slider</a></li></ul></a>';
 }
 
 function contactBtnFunc(e) {
-    contentText.innerHTML = "Contact";
+    contentText.innerHTML = '<ul style="list-style: none;"><li><a href="https://twitter.com/OpenSalz" target="blank">Twitter</a></ul>';
 }
 
 
