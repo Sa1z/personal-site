@@ -15,7 +15,7 @@ function aboutBtnFunc(e) {
 }
 
 function skillsBtnFunc(e) {
-    contentText.innerHTML = "<h3>My Skills</h3><ul><li>HTML</li><li>CSS</li><li>Javascript</li><li>Python</li><li>Git</li><li>Currently learning React.</li></ul>";
+    contentText.innerHTML = "<h3>My Skills</h3><ul><li>HTML</li><li>CSS</li><li>Javascript</li><li>Python</li><li>Git</li><li>Currently learning Bootstrap, SASS, and React.</li></ul>";
 }
 
 function portfolioBtnFunc(e) {
