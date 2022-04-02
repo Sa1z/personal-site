@@ -15,11 +15,11 @@ function aboutBtnFunc(e) {
 }
 
 function skillsBtnFunc(e) {
-    contentText.innerHTML = "<h3>My Skills</h3><ul><li>HTML</li><li>CSS</li><li>Javascript</li><li>Python</li><li>Git</li><li>Currently learning Bootstrap, SASS, and React.</li></ul>";
+    contentText.innerHTML = "<h3>My Skills</h3><ul><li>HTML</li><li>CSS</li><li>Javascript</li><li>Python</li><li>Git</li><li>Bootstrap</li><li>SASS</li><li>React</li><li>Linux</li></ul>";
 }
 
 function portfolioBtnFunc(e) {
-    contentText.innerHTML = '<h3>My Projects</h3><a href="https://github.com/Sa1z?tab=repositories" target="blank">My Github repositories</a><ul><li><a href="https://sa1z.github.io/startpage/" target="blank">Startpage</a></li><li><a href="https://sa1z.github.io/Blurry-Loading-Page/" target="blank">Blurry Loading Page</a></li><li><a href="https://sa1z.github.io/content-placeholder/" target="blank">Placeholder Card</a></li><li><a href="https://sa1z.github.io/live-user-filter/" target="blank">Live User Filter</a></li><li><a href="https://sa1z.github.io/random-choice-picker/" target="blank">Random Choice Picker</a></li><li><a href="https://sa1z.github.io/vertical-slider/" target="blank">Vertical Slider</a></li></ul></a>';
+    contentText.innerHTML = '<h3>My Projects</h3><a href="https://github.com/Sa1z?tab=repositories" target="blank">My Github repositories</a><ul><li><a href="https://sa1z.github.io/startpage/" target="blank">Startpage</a></li><li><a href="https://sa1z.github.io/Blurry-Loading-Page/" target="blank">Blurry Loading Page</a></li><li><a href="https://sa1z.github.io/content-placeholder/" target="blank">Placeholder Card</a></li><li><a href="https://sa1z.github.io/live-user-filter/" target="blank">Live User Filter</a></li><li><a href="https://sa1z.github.io/random-choice-picker/" target="blank">Random Choice Picker</a></li><li><a href="https://sa1z.github.io/vertical-slider/" target="blank">Vertical Slider</a></li><li><a href="https://github.com/Sa1z/react-task-tracker" target="blank">React Task Tracker</a></li></ul></a>';
 }
 
 function contactBtnFunc(e) {
