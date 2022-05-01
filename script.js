@@ -23,7 +23,7 @@ function portfolioBtnFunc(e) {
 }
 
 function contactBtnFunc(e) {
-    contentText.innerHTML = '<ul style="list-style: none;"><li><a href="https://twitter.com/OpenSalz" target="blank">Twitter</a></ul>';
+    contentText.innerHTML = '<ul style="list-style: none;"><li><a href="https://twitter.com/OpenSalz" target="blank">Twitter</a></li><li><a href="https://www.linkedin.com/in/dennisd7" target="blank">LinkedIn</a></li></ul>';
 }
 
 
