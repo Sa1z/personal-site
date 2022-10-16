@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'M PLUS 1 Code', sans-serif;
+    font-family: 'Inter', sans-serif;
     position: relative;
     display: flex;
     align-items: center;
